@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Confirm Song</title>
+</head>
+<body>
+<h1>Song object</h1>
+<p th:inline="text">Song Name was [[${mysong.name}]]</p>
+<p th:inline="text">Artist Name was [[${mysong.artist}]]</p>
+<p th:inline="text">Album was [[${mysong.album}]]</p>
+<p th:inline="text">Rating was [[${mysong.rating}]]</p>
+<p th:inline="text">The year it came out was [[${mysong.year}]]</p>
+</body>
+</html>
